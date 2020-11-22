@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GOST Calculator</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/557fe3ebab.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container fancy-font">
+    <br>
+    <div class="row justify-content-center">
+      <h1 class="fancy-font" id="title">Getting our sh&t together calculator</h1>
+    </div>
+    <hr>
+    <div class="row justify-content-center">
+        <div class="input-group mb-3 justify-content-center">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Fruits<i class="fas fa-apple-alt"></i></span>
+          </div>
+          <input id="fruits" class="inputs" type="text" class="form-control" aria-label="">
+          <div class="input-group-append">
+            <span class="input-group-text">servings</span>
+          </div>
+        </div>
+        <div class="input-group mb-3 justify-content-center">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Veggies<i class="fas fa-carrot"></i></span>
+          </div>
+          <input id="veggies" class="inputs" type="text" class="form-control" aria-label="">
+          <div class="input-group-append">
+            <span class="input-group-text">servings</span>
+          </div>
+        </div>
+        <div class="input-group mb-3 justify-content-center">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Carbs<i class="fas fa-bread-slice"></i></span>
+          </div>
+          <input id="carbs" class="inputs" type="text" class="form-control" aria-label="">
+          <div class="input-group-append">
+            <span class="input-group-text">grams</span>
+          </div>
+        </div>
+        <div class="input-group mb-3 justify-content-center">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Fat<i class="fas fa-cookie"></i></span>
+          </div>
+          <input id="fats" class="inputs" type="text" class="form-control" aria-label="">
+          <div class="input-group-append">
+            <span class="input-group-text">grams</span>
+          </div>
+        </div>
+        <div class="input-group mb-3 justify-content-center">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Protein<i class="fas fa-drumstick-bite"></i></span>
+          </div>
+          <input id="proteins" class="inputs" type="text" class="form-control" aria-label="">
+          <div class="input-group-append">
+            <span class="input-group-text">grams</span>
+          </div>
+        </div>
+        <button id="calc" type="button" class="btn btn-dark">Total</button>
+        <button id="reset" type="button" class="btn btn-danger">Reset</button>
+      </div>
+      <br>
+      <br>
+      <div class="row justify-content-center">
+        <h3>Point Total</h3>
+      </div>
+      <div class="row justify-content-center">
+        <p id="point-total">0</p>
+      </div>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>

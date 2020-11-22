@@ -1,0 +1,25 @@
+body {
+    /* background-color: rgb(107, 165, 0); */
+    background-image: url(../images/background2.png);
+}
+
+i {
+    margin-left: 10%;
+}
+
+h1, h3, p {
+    color: white;
+}
+
+hr {
+    color: white;
+}
+
+.fancy-font {
+    font-family: 'Nerko One', cursive;
+}
+
+#reset {
+    margin-left: 2%;
+    /* opacity: 50; */
+}
