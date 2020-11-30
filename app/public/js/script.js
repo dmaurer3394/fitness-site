@@ -122,6 +122,7 @@ $(document).ready(function () {
         $("#fats").val("");
         $("#proteins").val("");
         $("#point-total").text("0");
+        $("#calc").attr("disabled","disabled");
 
     })
 
