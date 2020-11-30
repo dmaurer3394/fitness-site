@@ -121,6 +121,7 @@ $(document).ready(function () {
         $("#carbs").val("");
         $("#fats").val("");
         $("#proteins").val("");
+        $("#point-total").text("0");
 
     })
 

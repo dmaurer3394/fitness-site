@@ -7,6 +7,10 @@ i {
     margin-left: 10%;
 }
 
+h1 {
+    font-size: 48pt;
+}
+
 h1, h3, p {
     color: white;
 }
