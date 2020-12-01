@@ -3,8 +3,12 @@ body {
     background-image: url(../images/background2.png);
 }
 
-i {
-    margin-left: 10%;
+h1, h3, p {
+    color: white;
+}
+
+hr {
+    color: white;
 }
 
 h1 {
@@ -37,16 +41,21 @@ p {
     }
 }
 
-  h1, h3, p {
-    color: white;
-}
-
-hr {
-    color: white;
+.icons {
+    margin-left: 10%;
 }
 
 .fancy-font {
     font-family: 'Nerko One', cursive;
+}
+
+.tooltip {
+    font-family: 'Nerko One', cursive;
+}
+
+.tooltip .tooltip-inner{
+    background-color: #692a24;
+    color: white;
 }
 
 #reset {
